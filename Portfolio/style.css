@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #1a1a1a;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+nav {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #C65B65;
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-text {
+  font-size: 1.2rem;       
+  line-height: 1.8;        
+  color: #040704;            
+  max-width: 700px;        
+  margin: 1rem auto 0;     
+  text-align: center;      
+  font-weight: 500;
+}
+
+
+.about-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h2 {
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills ul {
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  justify-content: center;
+}
+
+
+.skills li {
+  background: #C65B65;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.projects .project {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.projects .project img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.resume {
+  text-align: center;
+}
+
+.resume p {
+  margin: 1rem 0;
+}
+
+.resume a {
+  display: inline-block;
+  background: #1a1a1a;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.resume a:hover {
+  background: #C65B65;
+}
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  margin: 0.5rem 0;
+}
+
+footer {
+  background: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .skills ul {
+    flex-direction: column;
+  }
+}
